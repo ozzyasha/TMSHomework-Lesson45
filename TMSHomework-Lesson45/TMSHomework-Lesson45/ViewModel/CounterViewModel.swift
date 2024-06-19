@@ -21,11 +21,11 @@ class CounterViewModel {
     }
     
     func incrementValue() {
-        counter.send(self.counter.value - 1)
+        counter.send(self.counter.value + 1)
     }
     
     func decrementValue() {
-        counter.send(self.counter.value + 1)
+        counter.send(self.counter.value - 1)
     }
     
 }

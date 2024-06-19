@@ -82,11 +82,11 @@ class ViewController: UIViewController {
     }
     
     @objc func minusButtonTapped() {
-        vm.incrementValue()
+        vm.decrementValue()
     }
     
     @objc func plusButtonTapped() {
-        vm.decrementValue()
+        vm.incrementValue()
     }
 
 }
